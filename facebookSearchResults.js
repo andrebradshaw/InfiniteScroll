@@ -1,3 +1,10 @@
+/*/
+view the build process: 
+
+https://youtu.be/Cjfw90rFozA
+
+/*/
+
 function runScraper(){
 	var arr = [];
 	var divs = document.getElementsByTagName('div');
