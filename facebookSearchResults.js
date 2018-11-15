@@ -20,7 +20,7 @@ setTimeout(()=>{
 var domObserver = new MutationObserver((mChanges, ob)=>{
 	var endOfScroll = document.getElementById('browse_end_of_results_footer');
 	if(endOfScroll != null){
-		runScraper()
+		runScraper();
 		ob.disconnect();
 		return;
 	}else{
